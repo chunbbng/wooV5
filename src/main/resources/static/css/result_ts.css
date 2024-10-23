@@ -177,3 +177,12 @@ button:hover {
     z-index: 1000; /* 다른 요소보다 위에 표시 */
 }
 
+#scheduleForm {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    height: auto; /* 컨테이너는 고정, 높이 대신 내용만 등장 */
+}
+
+#scheduleForm.show {
+    opacity: 1;
+}
