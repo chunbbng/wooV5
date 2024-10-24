@@ -154,9 +154,10 @@ button:hover {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color: #333;
-    margin-right: 10px; /* 아이콘과 텍스트 간격 */
+    /*color: #333;*/
+    /*margin-right: 10px; !* 아이콘과 텍스트 간격 *!*/
     cursor: pointer;
+    box-shadow: none; /* 그림자 제거 */
 }
 
 .info-container span {
